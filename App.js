@@ -5,6 +5,7 @@ import Home from './screens/home';
 import AppLoading from 'expo-app-loading';
 import ReviewDetails from './screens/reviewDetails';
 import About from './screens/about';
+import Navigator from './routes/homeStack';
 
 const getFonts =() => Font.loadAsync({
     'nunito-regular': require('./assets/fonts/Nunito-Regular.ttf'),
@@ -16,13 +17,12 @@ export default function App() {
 
   if(fontsLoaded){
     return ( 
-      <view>
-      <Home />       
-      </view>         
-           
+      //this is the home page link in navigator     
+      <Navigator />            
     );
   } else {
     return(
+      //custom styles sheets
       <AppLoading
           startAsync={getFonts}
           onFinish={()=> setFontsLoaded(true)}
