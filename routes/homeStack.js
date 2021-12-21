@@ -20,7 +20,6 @@ const screens = {
         },
     }
 }
-
 const HomeStack = createStackNavigator(screens, {
     //create one css for both screens, 
     //one can specify a different properties for a screen not here
@@ -30,4 +29,7 @@ const HomeStack = createStackNavigator(screens, {
         headerStyle: {backgroundColor: '#aabbee', height: 60}
     }
 });
-export default createAppContainer(HomeStack);
+
+//export default createAppContainer(HomeStack);
+
+export default HomeStack;
