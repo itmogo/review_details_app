@@ -1,13 +1,15 @@
 import { createStackNavigator } from 'react-navigation-stack';
 import About from '../screens/about';
+import Header from '../shared/header';
+import React from 'react';
 
 const screens = {
     About: {
         screen: About,
         navigationOptions: {
-            title: 'About Top 30 Cybersecurity Experts You Should Follow In 2022',
-                   
-        }
+           // title: 'About: Top 30 Cybersecurity Experts You Should Follow In 2022',
+            headerTitle: () => <Header />       
+        },
     },
    
 }

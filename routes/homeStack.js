@@ -1,14 +1,21 @@
 import {createStackNavigator } from 'react-navigation-stack';
-import { createAppContainer } from 'react-navigation';
+//import { createAppContainer } from 'react-navigation';
 import Home from '../screens/home';
 import ReviewDetails from '../screens/reviewDetails';
+import Header from '../shared/header';
+import React from 'react';
+
+
 
 const screens = {
     Home: {
         screen: Home,
         navigationOptions:{
-            title: 'Top 30 Cybersecurity Experts You Should Follow In 2022',
-          //  headerStyle:{ backgroundColor: '#aabbee'}            
+            headerTitle: ()=> <Header />
+
+           // title: 'Top 30 Cybersecurity Experts You Should Follow In 2022',
+          //  headerStyle:{ backgroundColor: '#aabbee'} 
+
         }
     },
     ReviewDetails: {
