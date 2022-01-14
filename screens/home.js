@@ -19,6 +19,7 @@ export default function Home({ navigation }) {
       brand: "CyberScout",
       twitter: "@Adam_K_Levin",
       location: "Scottsdale, Ariz.",
+      rating: 4,
       key: "1",
     },
     {
@@ -28,6 +29,7 @@ export default function Home({ navigation }) {
       brand: "Crowdstrike",
       twitter: "@Adam_Cyber",
       location: "Washington, D.C.",
+      rating: 3,
       key: "2",
     },
     {
@@ -37,6 +39,7 @@ export default function Home({ navigation }) {
       brand: "Mastercard",
       twitter: "@dralissajay",
       location: "Waldorf, Md.",
+      rating: 1,
       key: "4",
     },
     {
@@ -46,6 +49,7 @@ export default function Home({ navigation }) {
       brand: "Microsoft",
       twitter: "@ajohnsocyber",
       location: "Seattle, Wash.",
+      rating: 2,
       key: "5",
     },
     {
@@ -55,6 +59,7 @@ export default function Home({ navigation }) {
       brand: "Verizon",
       twitter: "@cybersecboardrm",
       location: "Dallas, Texas",
+      rating: 5,
       key: "6",
     },
     {
@@ -64,6 +69,7 @@ export default function Home({ navigation }) {
       brand: "Microsoft",
       twitter: "@Microsoft",
       location: "Bellevue, Wash.",
+      rating: 2,
       key: "7",
     },
     {
@@ -73,6 +79,7 @@ export default function Home({ navigation }) {
       brand: "Circit",
       twitter: "@BrianHonan",
       location: "Ireland",
+      rating: 3,
       key: "8",
     },
     {
@@ -82,6 +89,7 @@ export default function Home({ navigation }) {
       brand: "KrebsOnSecurity.com",
       twitter: "@briankrebs",
       location: "Arlington, Va.",
+      rating: 5,
       key: "9",
     },
     {
@@ -91,6 +99,7 @@ export default function Home({ navigation }) {
       brand: "Best-Selling Author",
       twitter: "@schneierblog",
       location: "Boston, Mass.",
+      rating: 1,
       key: "10",
     },
     {
@@ -100,6 +109,7 @@ export default function Home({ navigation }) {
       brand: "Georgetown University",
       twitter: "@ChuckDBrooks",
       location: "Baltimore, Md.",
+      rating: 5,
       key: "11",
     },
   ]);

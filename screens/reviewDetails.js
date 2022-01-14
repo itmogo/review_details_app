@@ -15,7 +15,9 @@ export default function ReviewDetails({navigation}){
             <Text style={globalStyles.text}> Title: {navigation.getParam('title')} </Text>
             <Text style={globalStyles.text}> Brand: {navigation.getParam('brand')} </Text>
             <Text style={globalStyles.text}> Twitter: {navigation.getParam('twitter')} </Text>
-            <Text style={globalStyles.text}> Location: {navigation.getParam('location')} </Text> 
+            <Text style={globalStyles.text}> Location: {navigation.getParam('location')}</Text>
+            <Text style={globalStyles.text}> Rating: {navigation.getParam('rating')}
+            </Text> 
             </Card>
         </View>
         )
