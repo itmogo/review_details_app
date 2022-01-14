@@ -6,7 +6,7 @@ import { globalStyles } from "../styles/global";
 export default function About() {
   return (
     <View style={globalStyles.container}>
-      <Text style={globalStyles.text}> About Screen</Text>
+      <Text style={globalStyles.text}> About Cyber Security Experts</Text>
       <Text>
         {" "}
         URL:

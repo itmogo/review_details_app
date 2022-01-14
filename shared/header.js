@@ -5,23 +5,23 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 
 //creater component
-export default function Header(){
+export default function Header({ navigation, title }){ // destruction navigation
 
     // create onPRESS FUNCTION
-    const openMenu = ()=>{
-        //Navigation.openDrawer()
+    const openMenu = () =>{
+        navigation.openDrawer()
         }
+
     return (
         <View style={styles.header}>
          {/*icon for menu*/}
          <MaterialIcons name='menu' size={28} onPress={openMenu} style={styles.icon} />
-            <View>
-             <Text style={styles.headerText}> Cyber Security Experts Zone </Text>
+            <View>{/* added a dynamic title for header and about screens*/}
+             <Text style={styles.headerText}> {title} </Text>
             </View>
         </View>
     );
 }
-
 
 //creating styles sheets
 const styles = StyleSheet.create({

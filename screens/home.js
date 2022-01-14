@@ -15,25 +15,7 @@ export default function Home({navigation}){
  {number: 9, linkedln:'Brian Krebs', title: 'Reporter & Publisher', brand: 'KrebsOnSecurity.com', twitter:'@briankrebs', location: 'Arlington, Va.', key: '9' },
  {number: 10, linkedln:'Bruce Schneier', title:'Security Guru', brand: 'Best-Selling Author', twitter:'@schneierblog', location: 'Boston, Mass.', key: '10' },
  {number: 11, linkedln:'Chuck Brooks', title: 'Adjunct Professor', brand: 'Georgetown University', twitter:'@ChuckDBrooks', location: 'Baltimore, Md.', key: '11' },
- {number: 12, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '12' },
- {number: 13, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '13' },
- {number: 14, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '14' },
- {number: 15, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '15' },
- {number: 16, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '16' },
- {number: 17, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '17' },
- {number: 18, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '18' },
- {number: 19, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '19' },
- {number: 20, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '20' },
- {number: 21, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '21' },
- {number: 22, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '22' },
- {number: 23, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '23' },
- {number: 24, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '24' },
- {number: 25, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '25' },
- {number: 26, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '26' },
- {number: 27, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '27' },
- {number: 28, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '28' },
- {number: 29, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '29' },
- {number: 30, linkedln:'Adam Levin', title: 'Chairman & Founder', brand: 'CyberScout', twitter:'@Adam_K_Levin', location: 'Scottsdale, Ariz.', key: '30' },
+
  
        
     ]);   

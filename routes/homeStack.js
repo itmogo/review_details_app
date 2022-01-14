@@ -10,12 +10,11 @@ import React from 'react';
 const screens = {
     Home: {
         screen: Home,
-        navigationOptions:{
-            headerTitle: ()=> <Header />
-
-           // title: 'Top 30 Cybersecurity Experts You Should Follow In 2022',
-          //  headerStyle:{ backgroundColor: '#aabbee'} 
-
+        //the code help the menu button to open when clicked
+        navigationOptions: ({navigation}) => {
+            return {
+                headerTitle: ()=> <Header navigation={navigation} title=' Home Of Cyber Security Experts'   />
+            }
         }
     },
     ReviewDetails: {
